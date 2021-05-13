@@ -1,0 +1,1 @@
+Use my software this way. Please don't use it the wrong way.
