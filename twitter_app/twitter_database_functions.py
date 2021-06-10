@@ -2,7 +2,7 @@ from .twitter_data_model import DB, Tweet, User
 import numpy as np
 from functools import partial
 
-
+# function to input a user and tweets
 def upsert_user(twitter_handle, nlp, twitter_api):
     try:
         twitter_user = twitter_api.get_user(twitter_handle)

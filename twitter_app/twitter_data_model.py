@@ -2,13 +2,13 @@ from flask_sqlalchemy import SQLAlchemy
 
 DB = SQLAlchemy()
 
-
+# setup a user class
 class User(DB.Model):
 
     id = DB.Column(DB.BigInteger, primary_key=True)
     name = DB.Column(DB.String, nullable=False)
 
-
+# setup a tweet class
 class Tweet(DB.Model):
 
     id = DB.Column(DB.BigInteger, primary_key=True)

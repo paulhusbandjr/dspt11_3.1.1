@@ -4,6 +4,7 @@ from .twitter_data_model import User
 import pandas as pd
 
 
+# a function to make a prediction about tweet author
 def get_most_likely_author(usernames, tweet_to_classify, nlp):
     vects = []
     for username in usernames:
