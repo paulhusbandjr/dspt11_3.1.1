@@ -2,7 +2,7 @@ from mymodule.reddit import User, Topic
 
 
 def test_create_user():
-    name = 'test user'
+    name = 'tests user'
     reputation = 499
     is_moderator = True
     test_user = User(name=name, reputation=reputation, is_moderator=is_moderator)
